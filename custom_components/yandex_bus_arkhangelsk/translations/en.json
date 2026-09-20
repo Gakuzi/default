@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Bus Stop",
+        "description": "Paste the Yandex Maps stop URL or enter its numeric ID.",
+        "data": {
+          "stop_id": "Stop URL or ID",
+          "stop_name": "Custom stop name (optional)"
+        }
+      },
+      "routes": {
+        "title": "Select Routes",
+        "description": "Select buses to create separate arrival sensors for:",
+        "data": {
+          "tracked_routes": "Routes"
+        }
+      }
+    },
+    "error": {
+      "invalid_stop_id": "Could not parse stop ID. Please enter a valid URL or number."
+    },
+    "abort": {
+      "already_configured": "This stop is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Stop Settings",
+        "description": "Adjust tracked routes and update interval:",
+        "data": {
+          "tracked_routes": "Tracked routes",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}
