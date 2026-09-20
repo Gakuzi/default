@@ -4,8 +4,8 @@
   "codeowners": ["@Gakuzi"],
   "config_flow": true,
   "documentation": "https://github.com/Gakuzi/yandex_bus_arkhangelsk",
-  "issue_tracker": "https://github.com/Gakuzi/yandex_bus_arkhangelsk/issues",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "version": "1.0.2"
+  "issue_tracker": "https://github.com/Gakuzi/yandex_bus_arkhangelsk/issues",
+  "version": "1.0.3"
 }
